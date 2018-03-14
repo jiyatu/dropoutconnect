@@ -3,7 +3,9 @@ import tensorlayer as tl # 注意！！！ TensorLayer 现在更名为 TuneLayer
 from tensorlayer.layers import set_keep
 import numpy as np
 import time
-
+'''
+@author jyt
+'''
 
 X_train, y_train, X_val, y_val, X_test, y_test = \
                                     tl.files.load_mnist_dataset(shape=(-1,784))
